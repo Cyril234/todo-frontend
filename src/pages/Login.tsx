@@ -42,7 +42,7 @@ export default function Login() {
     <div className="container">
       <div className="card">
         <h1>Login</h1>
-        <p className="muted">Gib ein Passwort ein. Wenn der User existiert, wird er verwendet, sonst erstellt.</p>
+        <p className="muted">Gib ein Passwort ein. Wenn der User existiert, wird er verwendet, sonst wird ein neuer erstellt.</p>
 
         <form onSubmit={onSubmit} className="stack">
           <label className="label">
